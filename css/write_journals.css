@@ -1,0 +1,114 @@
+/* Write_review_res Style */
+
+.gray { color: #999; }
+.travelCon { width: 980px; margin: 8px auto 0 auto; }
+.travelCon h1 span { font-size: 12px; font-weight: normal; }
+.travelCon i { color: red; }
+.mainCon { width: 630px; float: left; padding-bottom: 40px; }
+.sideCon { width: 300px; float: left; padding-left: 50px; position: relative; z-index: 10 }
+.journals-content { padding-bottom: 15px; }
+.journals-content .gsn-btn-2,
+.journals-content .gsn-btn-6,
+.journals-content .gsn-btn-21 { margin: 0 10px 0 0; float: left; }
+.journals-content label { font-size: 14px; display: block; line-height: 40px; }
+.journals-content label span { font-size: 12px; }
+.journals-content label span.tips { float: right; }
+.journals-content label span.tips a { color: #999; }
+.journals-content label span.warn { color: #f00; }
+.journals-content  .txt-input { width: 620px; height: 40px; line-height: 33px; padding: 0 4px; border: 1px solid #c2c2c2; vertical-align: top; font-size: 14px; color: #666; }
+.journals-content .tags-list { margin-top: 5px; font-size: 12px; }
+.journals-content .tags-list em { float: left; margin: 0 10px 10px 0; background: url(/travels/img/bg-qa-index.png) 0 -122px no-repeat; height: 22px; line-height: 22px; padding: 0 10px 0 15px; cursor: pointer; }
+.editor-wrap { position: relative; }
+.btn-upload { position: absolute; width: 300px; height: 24px; z-index: 101; margin-top: -30px; }
+.btn-upload span { float: left; line-height: 24px; color: #999; margin-right: 6px; }
+#submitsec { padding-top: 15px; }
+#submitsec span { margin-right: 15px; }
+.btn-gray { display: inline-block; line-height: 28px; padding: 0 10px; border: 1px solid #cfd5d9; background: #fefefe; color: #666; font-size: 14px; cursor: pointer; border-radius: 3px; }
+.savedCon { color: #999; }
+.journals-content .savedCon { float: left; padding-top: 10px; }
+.mod { line-height: 24px; }
+.mod .hd { font-size: 14px; }
+.mod .bd li { padding: 5px 0; color: #666; }
+.mt40 { margin-top: 40px; }
+#photolist { width: 300px; min-height: 550px; height: 550px; position: relative; overflow: auto; }
+#photolist ul { padding-bottom: 1px; max-height: 575px; }
+#photolist ul li { width: 84px; margin: 0 8px 8px 0; border: 1px solid #d5d5d5; height: 84px; float: left; display: inline; position: relative; }
+#photolist ul li span { cursor: pointer; text-align: center; display: block; }
+#photolist ul li strong { line-height: 74px; height: 74px; display: block; text-align: center; font-size: 14px; }
+#photolist ul li strong.loding { background: url(/common/img/ico-loading.gif) no-repeat center; }
+#photolist ul li strong.error { color: #f00; font-size: 12px; line-height: 18px; padding-top: 20px; }
+#photolist ul li em { margin: 0 5px 5px 5px; display: block; height: 5px; background: #eee; }
+#photolist ul li em b { background: #05a; display: block; height: 5px; width: 1%; }
+#photolist ul li i { width: 13px; height: 13px; background: url(/common/img/ico-delete.png) no-repeat; position: absolute; z-index: 1; top: 1px; right: 1px; display: none; cursor: pointer; }
+#photolist ul li i.close { width: 25px; height: 27px; background: url(/common/img/ico-delete.png) no-repeat; position: absolute; z-index: 1; top: 1px; right: 1px; display: none; cursor: pointer; }
+#photolist ul li.failed { border: 1px solid #ccc; height: 84px; }
+#photolist ul li.failed .filename,
+#photolist ul li.failed .errorMsg { position: absolute; width: 74px; padding-left: 5px; text-align: center; }
+#photolist ul li.failed .filename { bottom: 1.2em; color: #333; width: 74px; }
+#photolist ul li.failed .errorMsg { bottom: 0; color: #b94a48; width: 74px; }
+#photolist ul li strong.failed { background: url(/travels/img/nosmile.png) no-repeat scroll center center transparent; margin-top: -1em; }
+#photolist ul li strong.error { color: #ff0000; font-size: 12px; line-height: 18px; padding-top: 20px; }
+#photolist ul li em { background: none repeat scroll 0 0 #eee; display: block; height: 5px; margin: 0 5px 5px; }
+#photolist .bgbox { width: 100%; min-height: 400px; height: 100%; opacity: 0.6; background: #fff; position: absolute; z-index: 1001; min-height: 300px; }
+#photolist .infobox { position: absolute; z-index: 1002; font-size: 14px; left: 20px; top: 80px; width: 170px; color: #666666; }
+#photolist .infobox span { color: #f56a25; }
+#photolist .infobox p { line-height: 1.4; margin: 15px 0; }
+#photolist .btn_ok { width: 78px; height: 31px; background: url(/travels/img/btn_01.png); line-height: 31px; display: inline-block; color: #666666; text-align: center; }
+#photolist p.textc { padding-top: 10px; text-align: right; margin-bottom: 0; }
+.sideCon .fixed { position: fixed; top: 0; left: 50%; margin: 0 0 0 190px; width: 300px }
+.photolistCon .hd { padding-bottom: 6px; }
+.photolistCon .hd span { float: right; font-size: 12px; color: #777; padding-right: 24px; }
+.editor-wrap .fixed { position: fixed; top: 4px; left: 50%; margin: 0 0 0 -395px; }
+.cancelUpload { cursor: pointer; color: #05a; }
+.uploadinfo { color: #999; }
+.ui-sortable-placeholder { border: 1px dotted #555 !important; visibility: visible !important; }
+.ui-sortable-placeholder * { visibility: hidden; }
+#photolist ul li.ui-state-disabled span { cursor: auto; }
+#photolist ul li.ui-state-disabled img { filter: Alpha(opacity=10); opacity: 0.1; }
+.photo-mask { width: 560px; height: 40px; position: absolute; top: 0; left: 0; display: none; z-index: 999; }
+.photo-mask .mask-bg { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: #000; opacity: .5; filter: alpha(opacity=50); }
+.photo-mask em { background: url(/travels/img/icon_upload_jnpic.png) no-repeat 0 -22px; padding-left: 15px; color: #fff; position: absolute; z-index: 2; bottom: 12px; right: 8px; color: #fff; cursor: pointer; }
+.photo-mask em.ok { background: url(/travels/img/ico-right.png) 0 -2px no-repeat; padding-left: 25px; }
+.mask-input { width: 80%; border: none; line-height: 26px; color: #fff; font-size: 14px; height: 26px; position: absolute; z-index: 10; top: 6px; left: 6px; background: none; cursor: text; outline: none; }
+.mask-input::-webkit-input-placeholder { color: #fff; }
+.mask-input:focus::-webkit-input-placeholder { color: transparent; }
+#gsn_frame_selectdes .first-tip { font-size: 14px; color: #666; padding-bottom: 1em; }
+#gsn_frame_selectdes .addtextclass { font-size: 12px; color: #999; padding-top: 1em; line-height: 18px; display: block; }
+#gsn_frame_selectdes .second-tip { display: block; font-size: 14px; color: #666; float: right; margin-right: 1em; }
+#gsn_frame_selectdes .second-tip .showinputbox { cursor: pointer; }
+#gsn_frame_selectdes .second-tip .showinputbox i.add-more { background: url(/travels/img/add-more-icon.png) no-repeat scroll 0 0 transparent; display: inline-block; font-size: 0; margin-right: 5px; width: 13px; height: 13px; vertical-align: middle; }
+#gsn_frame_selectdes .second-tip em { color: #999; }
+#gsn_frame_selectdes .deslist { margin-top: 0.5em; width: 388px; }
+#gsn_frame_selectdes .deslist span { margin-right: 0.5em; margin-top: 2px; cursor: pointer; }
+#gsn_frame_selectdes .gsn-inputbox { margin-top: 1em; }
+#gsn_frame_selectdes .gsn-form .btnlist { float: right; }
+#gsn_frame_selectdes .gsn-form .btnlist button { margin: 1em; }
+#gsn_frame_selectdes #deshKword { width: 380px; position: absolute; }
+#gsn_frame_selectdes.gsn-layer { width: 388px; }
+#gsn_frame_selectdes.gs_LAYER_PARENT_V1 { z-index: 1000; left: 45% }
+#fast-sgt { z-index: 10050; }
+/* from suggest.css */
+#deshKwordCon { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: none repeat scroll 0 0 #fff; border-color: -moz-use-text-color #ccc #ccc; border-image: none; border-right: 1px solid #ccc; border-style: none solid solid; border-width: medium 1px 1px; display: none; font-size: 12px; overflow: hidden; position: absolute; width: 380px; z-index: 10000; }
+#deshKwordCon .sgt-address-list { padding: 0 0 5px; }
+#deshKwordCon .sgt-address-list a strong { color: #333333; font-weight: bold; }
+#deshKwordCon p { color: #aaaaab; line-height: 24px; margin: 0; padding: 0; }
+#deshKwordCon p span { color: #fff; padding-left: 6px; }
+#deshKwordCon .flytitle { background: none repeat scroll 0 0 #4d6684; color: #fff; margin: 5px; }
+#deshKwordCon .sgt-address-list a { color: #333; cursor: pointer; display: block; height: 24px; line-height: 24px; padding: 0 6px; text-decoration: none; }
+#deshKwordCon .sgt-address-list a span { float: right; }
+#deshKwordCon .sgt-address-list a:hover { background: none repeat scroll 0 0 #d4eaf6; }
+#deshKwordCon .sgt-address-list a.current { background: none repeat scroll 0 0 #d4eaf6; }
+#deshKwordCon .sgt-address-list .sgt-kq { border-top: 1px solid #ccc; padding-top: 5px; position: relative; }
+#deshKwordCon .sgt-address-list .sgt-kq em { display: inline-block; padding-right: 18px; position: absolute; right: 2px; top: 7px; z-index: 121; }
+#swfUploadcon { width: 74px; height: 32px; display: block; }
+.uplpad_info_pic_1 p { color: #999; }
+
+.edit_tag h3 { font-size: 14px; color: #333; padding-bottom: 10px; }
+.edit_tag h3 span { color: #999; font-weight: normal; font-size: 12px; }
+.edit_tag li { float: left; margin: 0 10px 10px 0; }
+.edit_tag .tag-tip { font-size: 12px; color: #B94A48; line-height: 22px; display: none; float: left; }
+.edit_tag li a { cursor: pointer; height: 26px; font-size: 12px; color: #fff; padding: 0 15px; background: #bbb; display: block; text-align: center; line-height: 26px; overflow: hidden; _float: left; }
+.edit_tag li a:hover { text-decoration: none; }
+.edit_tag li.current a { padding-left: 25px; background: #41afea url(/travels/img/journal_detbox.png) no-repeat -269px -114px; }
+.edit_tag a.addtaglink { width: 88px; height: 24px; overflow: hidden; font-size: 12px; background: #fff; border: 1px solid #bbb; padding: 0; line-height: 24px; text-align: center; display: inline-block; color: #999; }
+.edit_tag a.addtaglink:hover { color: #06c; text-decoration: none; }

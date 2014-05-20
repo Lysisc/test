@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+i.ico_viewspot_41,
+i.ico_stay_41,
+i.ico_delicacy_41,
+i.ico_shopping_41,
+i.ico_viewspot_20,
+i.ico_stay_20,
+i.ico_delicacy_20, 
+i.ico_shopping_20,
+.daytext .topquot,
+.daytext .bottomquot, 
+.singledes .righttext li .commentbox,
+.singledes .righttext li .commentbox span, 
+.singleimg .shadow,
+.daybox .theend,
+.singleimg .coverpic,
+.app_areapoi i{ background:url(/travels/img/journal_detbox.png) no-repeat; }
+i.ico_viewspot_41,
+i.ico_stay_41,
+i.ico_delicacy_41,
+i.ico_shopping_41 { width:41px; height:41px; display:inline-block; overflow:hidden; } 
+i.ico_viewspot_41 { background-position:0 -56px; }
+i.ico_stay_41 { background-position:-42px -56px; }
+i.ico_delicacy_41 { background-position:-84px -56px; }
+i.ico_shopping_41 { background-position:-126px -56px; }
+i.ico_viewspot_20,
+i.ico_stay_20,
+i.ico_delicacy_20,
+i.ico_shopping_20 { width:20px; height:20px; display:inline-block; overflow:hidden; margin-right:10px; vertical-align:middle; }
+i.ico_viewspot_20 { background-position:-116px -19px; }
+i.ico_stay_20 { background-position:-137px -19px}
+i.ico_delicacy_20 { background-position:-158px -19px; }
+i.ico_shopping_20 { background-position:-179px -19px; }
+.daybox { font-size:14px; }
+.daybox .titleline { width:900px; height:110px; text-align:center; background:url(/travels/img/daytitlebg.png) repeat-x 0 63px; padding-top: 10px; }
+.daybox .titleline p { padding-top:30px; font-size:20px; margin:7px auto 0; *padding-top:49px; background:#fff; font-family:Microsoft Yahei; display:inline-block; *display:inline; *zoom:1; }
+.daybox .titleline p strong { font-size:36px; padding:0 5px; display:inline-block; *line-height:36px; font-weight:normal; }
+.daybox .titleline p span.time { display:block; color:#999; padding-top:5px; font-size:12px; font-family:Tahoma; }
+.daybox .desbox { text-align:center; padding-bottom: 10px; }
+.daybox .desbox .sdesname { white-space:nowrap; padding-bottom:8px; display:inline-block; }
+.daybox .desbox .sdesname a { font-family:Microsoft Yahei;color: #00a7e1; }
+.daybox .desbox .fontgt { font-family:Simsun; color:#ccc; vertical-align:middle; *vertical-align:super; line-height:20px; padding:0 10px; font-weight:bold; }
+.daybox .daytext { width:800px; position:relative; margin:10px 0 20px; padding:10px 50px 20px 50px; line-height:24px; overflow:hidden; }
+.daytext .topquot,
+.daytext .bottomquot { width:23px; height:18px; position:absolute; display:inline-block; overflow:hidden; }
+.daytext .topquot { background-position:-68px -19px; left:10px; top:0; }
+.daytext .bottomquot { background-position:-92px -19px; bottom:0; right:10px; }
+.textcontent, .righttext p { word-break: break-all; word-wrap: break-word; }
+.daybox .singledes { padding:15px 0; }
+.daybox .singledes i { float:left; }
+.daybox .singledes .righttext { width:844px; float:left; padding:10px 0 0 15px; }
+.singledes .righttext h3 { font-size:14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.singledes .righttext h3 a{ font: bold 16px Microsoft Yahei; color:#333; }
+.singledes .righttext h3 a:hover{ color:#06c; text-decoration:none; }
+.singledes .righttext ul { margin-top: 15px; }
+.singledes .righttext li { float:left; font-size:12px; color:#999; }
+.singledes .righttext li .commentbox { width:68px; height:12px; vertical-align:middle; *vertical-align:top; display:inline-block; overflow:hidden; position:relative; background-position:-102px -113px; }
+.singledes .righttext li .commentbox span { background-position:-102px -100px; width:14px; height:12px; display:inline-block; overflow:hidden; position:absolute; top:0; left:0; }
+.singledes .righttext p { width:844px; padding:10px 0 5px; line-height:24px; clear:both; }
+.daybox .singleimg { width:898px; border:1px solid #ccc; text-align:center; margin:0 auto 30px auto; background:#f7f7f7; position:relative; }
+.singleimg .imglink { position:relative; display:inline-block; vertical-align:top; }
+.singleimg .describe { border-top:none; width:858px; background:#fff; padding:0 20px 40px 20px; /*ie6这个容器没有宽度，绝对定位元素显示不出*/
+	position:relative; }
+.singleimg .describe ul { position:absolute; font-size:12px; bottom:10px; right:20px; }
+.singleimg .describe li { float:right; }
+.singleimg .describe li a { color:#666; }
+.singleimg .describe li a.click_like { color:#333; cursor:text; }/* yi.z 喜欢高亮状态 */
+.singleimg .describe li a:hover { color:#333; text-decoration:none; }
+.singleimg .describe p { text-align:left; line-height:24px; padding-top:10px; }
+.singleimg .shadow { width:266px; height:9px; overflow:hidden; display:inline-block; position:absolute; right:0; bottom:-9px; }
+.singleimg .coverpic{ width:59px; height:59px; overflow:hidden; position:absolute; right:-1px; top:-1px; background-position:-200px -19px; display:inline-block; }
+.daybox .theend { width:500px; height:20px; padding:20px 0 40px 0; overflow:hidden; background-position:405px -232px; }
+.daybox .dayframe{ min-height: 250px; }
+.daybox .noindays{ padding-top:40px; margin-bottom:0; }
+.daybox .noindays .topquot{ top:30px; }
+
+.gsn-btn-8 { margin-left: 10px; }
+#btnJournalCommment { margin-left: 0; }
+
+/*游记2.0迭代更新（拼图样式）*/
+.daybox .img_box { width: 900px; font-size: 12px; position: relative; z-index: 0; }
+.daybox .img_block { margin-bottom: 10px; overflow: hidden; position: relative; background-color: #f7f7f7; }
+.daybox .grid-1 .l { width: 410px; height: 590px; margin-right: 10px; float: left; }
+.daybox .grid-1 .r { width: 480px; height: 290px; _float: left; }
+.daybox .grid-2 .l { width: 480px; height: 290px; margin-right: 10px; float: left; clear: left; }
+.daybox .grid-2 .r { width: 410px; height: 590px; _float: left; }
+.daybox .grid-3 .l { width: 560px; height: 430px; margin-right: 10px; float: left; }
+.daybox .grid-3 .r { width: 330px; height: 210px; _float: left; }
+.daybox .grid-4 .l { width: 330px; height: 210px; margin-right: 10px; float: left; clear: left; }
+.daybox .grid-4 .r { width: 560px; height: 430px; _float: left; }
+.daybox .grid-5 .l { width: 290px; height: 420px; margin-right: 10px; float: left; }
+.daybox .grid-5 .c { width: 300px; height: 420px; margin-right: 10px; float: left; }
+.daybox .grid-5 .r { width: 290px; height: 420px; _float: left; }
+.daybox .grid-6 .l { width: 445px; height: 290px; margin-right: 10px; float: left; }
+.daybox .grid-6 .r { width: 445px; height: 290px; _float: left; }
+.daybox .grid-7 .l { width: 590px; height: 450px; margin-right: 10px; float: left; }
+.daybox .grid-7 .r { width: 300px; height: 450px; _float: left; }
+.daybox .grid-8 .l { width: 300px; height: 450px; margin-right: 10px; float: left; }
+.daybox .grid-8 .r { width: 590px; height: 450px; _float: left; }
+.daybox .grid-9 .l { width: 445px; height: 600px; margin-right: 10px; float: left; }
+.daybox .grid-9 .r { width: 445px; height: 600px; _float: left; }
+.daybox .grid-11 .r { width: 560px; height: 430px; _float: left; }
+.daybox .grid-11 .l { width: 330px; height: 210px; margin-right: 10px; clear: left; float: left; }
+.daybox .grid-10 .img_block { width: 900px; }
+.daybox .grid-10 .img_block img { margin: 0 auto; }
+.img_block .describe { width: 100%; height: 30px; position: absolute; top: 0; right: 0; z-index: 3; text-align: right; display: none; }
+.img_block .describe div, .img_block .img_text div { width: 100%; height: 30px; background: #000; filter: Alpha(Opacity=50); opacity: 0.5; position: absolute; right: 0; top: 0; z-index: -1; }
+.img_block .describe a { color: #fff; text-decoration: none; display: inline-block; line-height: 28px; cursor: pointer; _margin-top: 6px; }
+.img_block .describe a i { margin-right: 3px; }
+.img_block .describe a span { vertical-align: -5%; }
+.img_block .describe a.click_like { color: #999 !important; cursor: text; }
+.img_block .describe a.link_comment { margin-right: 8px; }
+.img_block .describe p { text-align: left; line-height: 24px; padding-top: 10px; }
+.img_block .describe .linecolor { padding: 0 4px; }
+.img_block .img_text { width: 100%; height: 30px; position: absolute; left: 0; bottom: 0; z-index: 2; color: #fff; }
+.img_block .img_text span { width: 90%; line-height: 28px; white-space: nowrap; text-overflow: ellipsis; display: block; overflow: hidden; margin-left: 9px; }
+.img_block .img_text i { width: 13px; height: 8px; position: absolute; right: 8px; top: 12px; background: url(/travels/img/journal_detbox.png) -186px -207px no-repeat; }
+.img_block .coverpic { background: url(/travels/img/journal_detbox.png) -200px -19px no-repeat; width: 59px; height: 59px; position: absolute; right: 0; top: 0; z-index: 1; }
+.img_block.over .describe { display: block; }
+.img_block.over .img_text { height: auto; }
+.img_block.over .img_text span { margin: 4px 9px 6px; width: auto !important; line-height: 20px; white-space: normal; text-overflow: clip; word-break: break-all; word-wrap: break-word; }
+.img_block.over .img_text i { display: none; }

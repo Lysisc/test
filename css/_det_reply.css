@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.replybox { padding-left:80px; padding-bottom:10px; }
+.replybox h3 {
+	font-family:Microsoft Yahei;
+	font-weight:normal;
+	font-size:20px;
+	padding-bottom:25px;
+	color:#666;
+}
+.replybox .singlereply{
+	position:relative;}
+.replybox .singlereply .userinfo {
+	background: url("/img/events/bg-landlord.png") no-repeat scroll right top #E2F4FE;
+	height: 50px;
+	margin-left:30px;
+	padding-left:50px;
+	padding-top:5px;
+	position:relative;
+}
+.singlereply .userinfo li { line-height:20px; }
+.singlereply .userinfo .f_img {
+	position:absolute;
+	left:-32px;
+	top:-5px;
+}
+.singlereply .userinfo .f_img img {
+	border:2px solid #fff;
+	border-radius:30px;
+}
+.singlereply .userlink{
+	margin-left:10px;}
+.singlereply .f_num{
+	color: #BEDAEA;
+	position: absolute;
+	right: 30px;
+	top: 8px;
+}
+.singlereply .f_num em {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.singlereply .f_num i {
+    position: absolute;
+    right: -10px;
+    top: 0;}
+.singlereply .replytext{
+	padding:20px 0 20px 80px;
+	line-height:22px;
+	font-size:14px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.singlereply .replylink{
+	text-align:right;
+	padding-bottom:25px;}
+.replytext .attentionbox
+{
+    font-size:12px;
+    width:255px;}
+.singlereply .repalyta {
+    background: url("/img/events/replay-icon.png") no-repeat scroll left center transparent;
+    color: #0066CC;
+    cursor: pointer;
+    padding-left: 18px;
+    padding-right: 10px;
+}
+.singlereply .report {
+    cursor: pointer;
+    color: #06c;
+	padding-right: 10px;
+}
+.replybox .customer  .userinfo{
+	background:url("/img/events/bg-landlord.png") no-repeat scroll right bottom #F5F5F5}
+.replybox .customer .f_num{
+	color:#dedede;}
+.replybox .quotebox{
+	border-left: 5px solid #DDDDDD;
+	cursor:pointer;
+    padding-left: 5px;}
+.replybox .quotebox .namecolor{
+	color:#999;
+	display:inline-block;}
+.replybox .quotepic .qpicname{
+	border-left: 5px solid #DDDDDD;
+	padding-left: 5px;	
+	color:#999;}
+.replybox .quotepic p{
+	padding-top:10px;}
+.replybox .quotepic p img{
+	width:200px;}
+
+
+.journal-comment-tip { display: inline; color: red; margin-left: 10px; vertical-align:top; line-height:26px; display:none; }
+#picComment .journal-comment-tip { line-height: 18px; vertical-align: middle; }
+.replybox .icon_app{vertical-align: text-top;}

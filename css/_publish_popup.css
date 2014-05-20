@@ -1,0 +1,46 @@
+/* 发表游记弹层 */
+input::-ms-clear { display: none; }
+#publish_popup { width: 590px; background-color: #fff; }
+#publish_popup h2 { font-size: 24px; font-weight: normal; line-height: 34px; margin-bottom: 20px; }
+#publish_popup h2 span { font-size: 14px; }
+#publish_popup h3 { font-size: 18px; font-weight: normal; color: #999; margin-bottom: 18px; }
+#publish_popup h3 i { background: url(/travels/img/icon_ctd_bg.png) no-repeat; display: inline-block; width: 16px; height: 18px; vertical-align: middle; margin-right: 5px; }
+#publish_popup h3 i.i_ttd { background-position: -360px -72px; }
+#publish_popup h3 i.i_tpi { background-position: -384px -72px; }
+#publish_popup h3 i.i_play { background-position: -384px -96px; }
+#publish_popup .ttd, #publish_popup .tpi { padding-left: 20px; margin-bottom: 30px; width: 570px; }
+#publish_popup .ttd .dest { color: #666; background-color: #e6e6e6; display: block; margin: 0 7px 7px 0; float: left; height: 30px; line-height: 30px; font-size: 14px; padding: 0 9px; text-decoration: none; word-break: keep-all; white-space: nowrap; }
+#publish_popup .ttd .dest.selected, #publish_popup .ttd .dest:hover { background-color: #41afea; color: #fff; }
+#publish_popup .ttd .dest.selected i { display: inline-block; width: 14px; height: 14px; vertical-align: middle; margin-right: 7px; background: url(/travels/img/icon_ctd_bg.png) -360px -96px no-repeat; }
+#publish_popup .ttd .add_dest { display: block; height: 28px; line-height: 28px; float: left; border: 1px solid #e6e6e6; color: #666; padding: 0 9px; }
+#publish_popup .ttd .add_dest:hover { border-color: #41afea; color: #41afea; text-decoration: none; }
+#publish_popup .ttd .search_dest { display: none; float: left; height: 30px; margin-bottom: 7px; font-size: 14px; position: relative; z-index: 3; width: 211px; }
+#publish_popup .ttd .search_dest input { border: 1px solid #ccc; padding: 0 7px; margin-right: 10px; font-size: 14px; width: 153px; height: 28px; line-height: 28px; vertical-align: middle; }
+#publish_popup .ttd .search_dest .cancel_dest { color: #00a7e1; text-decoration: none; }
+#publish_popup .ttd .error_tip { font-size: 12px; color: #cc4200; float: left; clear: both; margin-bottom: -18px; display: none; }
+#search_select, #tpi_who_select { border: 1px solid #ccc; border-top: 0 none; padding: 5px 0; position: absolute; z-index: -1; background-color: #fff; display: none; }
+#search_select a, #tpi_who_select a { padding: 0 5px; line-height: 24px; display: block; color: #666; text-decoration: none; }
+#search_select a.over, #tpi_who_select a:hover { background-color: #33b9e7; color: #fff; }
+#search_select { width: 167px; top: 30px; left: 0; font-size: 12px; }
+#search_select a span { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; display: inline-block; vertical-align: middle; cursor: pointer; }
+#search_select a span.search_city { max-width: 84px; _width: expression(this.width > 84 ? '84px':true); }
+#search_select a span.search_country { max-width: 60px; _width: expression(this.width > 60 ? '60px':true); }
+#search_select em { color: #33b9e7; margin-left: 5px; }
+#publish_popup .tpi { height: 135px; border-bottom: 1px solid #e6e6e6; }
+#publish_popup .tpi span { float: left; width: 260px; height: 34px; margin-right: 15px; margin-bottom: 30px; font-size: 14px; }
+#publish_popup .tpi span.tpi_who { position: relative; z-index: 2; }
+#publish_popup .tpi span.tpi_time { position: relative; z-index: 1; }
+#publish_popup .tpi span.tpi_time .error_tip { font-size: 12px; color: #cc4200; display: none; margin-left: 75px; margin-top: 5px; }
+#publish_popup .tpi span i { position: absolute; top: 15px; right: 35px; z-index: -1; }
+#publish_popup .tpi span i.tpi_who { width: 0; height: 0; line-height: 0; font-size: 0; border-top: 5px solid #bbb; border-left: 5px solid #fff; border-right: 5px solid #fff; }
+#publish_popup .tpi span i.tpi_time { width: 16px; height: 16px; background: url(/travels/img/icon_ctd_bg.png) -384px -48px no-repeat; top: 10px; right: 32px; }
+#publish_popup .tpi span input { padding: 0 7px; height: 32px; line-height: 32px; border: 1px solid #ccc; font-size: 14px; background-color: transparent; }
+#publish_popup .tpi span input:focus, #publish_popup .ttd .search_dest input:focus { border: 1px solid #41afea; outline-offset: 0; outline: -webkit-focus-ring-color auto 0; }
+#tpi_who_select { width: 163px; top: 34px; left: 70px; }
+#tpi_day, #tpi_cost { width: 84px; }
+#tpi_who, #tpi_time { width: 149px; cursor: pointer; }
+#publish_popup .gs_btn_v4 { padding: 0; border-radius: 3px; background-color: #ff7534; border-bottom: 2px solid #e44a00; color: #fff; display: inline-block; width: 127px; height: 34px; line-height: 36px; font-size: 18px; text-align: center; margin-right: 20px; }
+#publish_popup .gs_btn_v4:hover { text-decoration: none; background-color: #fe5200; }
+#publish_popup .gs_btn_v4:active { border-top: 2px solid #e44a00; border-bottom: none; line-height: 32px; }
+#publish_popup .gs_btn_v4.gsn-btn-20-load { background-color: #ccc; border-color: #ccc; }
+#publish_popup .cancel { text-decoration: none; color: #999; font-size: 18px; }

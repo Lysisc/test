@@ -1,0 +1,38 @@
+/* * 经典游记详情页改版
+* @version 1.0
+* @author lusc
+* @date 20140213 */
+@media only screen and (min-width:1419px) {
+	.content,
+	.cui_subnav_wrap { width: 1180px; }
+	#base_ft { width: 1180px !important; }
+	.ctd_head_left,
+	.ctd_main { width: 870px; }
+	.ctd_head_left h2 { width: 845px; font-size: 28px; }
+	.ctd_head_right { width: 230px; padding-left: 80px; }
+	.ctd_content_controls { padding-bottom: 20px; margin-bottom: 40px; }
+	.ctd_content_controls span { margin-right: 26px; }
+	.ctd_content { padding: 40px 40px 24px; padding: 40px 39px 24px\9; }
+	.ctd_content .img { width: 790px; }
+	.ctd_content img,
+	.ctd_content .img img { max-width: 790px; _width: expression(this.width > 790 ? '790px':true); }
+	.ctd_side { width: 280px; padding-left: 30px; }
+	.ctd_ttd_box,
+	.ctd_travels,
+	#ctd_ttd_tab,
+	.ctd_ttd,
+	.ctd_sideseo { width: 280px; }
+	.ctd_ttd li { background: url(/travels/img/side_ttd_bg280.png) 0 84px no-repeat; }
+	.ctd_ttd li h4 { width: 200px; padding-right: 80px; }
+	.ctd_ttd_stat,
+	.ctd_items { width: 285px; }
+	.ctd_sideseo ul { width: 290px; }
+	.ctd_ttd_stat a { margin-right: 20px; }
+	.ctd_items .fl, .ctd_items .fl .img, .ctd_items .fl .mask { width: 130px; }
+	.ctd_travels .fl .text { width: 122px; }
+	.ctd_qrcode { width: 280px; height: 280px; background-image: url(/travels/img/qr_code280x280.png); }
+	.ctd_qrcode span { right: 42px; bottom: 55px; font-size: 26px; }
+	.ctd_comments_box .textarea_box { width: 790px; }
+	.ctd_comments_box .textarea_box .textarea { width: 788px; }
+	.ctd_comments_box .textarea_box .textarea textarea { width: 782px; }
+}

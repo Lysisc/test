@@ -1,0 +1,12 @@
+{
+	"name": "test",
+	"version": "0.1.0",
+	"description": " ",
+	"repository": " ",
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-nodeunit": "*",
+		"grunt-contrib-uglify": "*"
+	}
+}

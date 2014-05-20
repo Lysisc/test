@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.top_article { width:100%; height:46px; overflow:hidden; position:fixed; top:0; z-index:10; border-top:1px solid #ddd; background:#fff url(/common/img/bg-gsheader.png) repeat-x 0 43px; display:none; }
+.top_article .top_inbox { width:980px; margin:0 auto; }
+.top_article .top_inbox ul { float:right; }
+.top_article .top_inbox li { float:left; padding-left:10px; height:26px; padding-top:8px; }
+.top_article .top_inbox li a { width:35px; height:26px; overflow:hidden; display:inline-block; color:#fff; line-height:26px; padding-left:35px; background:url(/travels/img/journal_detbox.png) no-repeat; }
+.top_article .top_inbox li a:hover{ text-decoration:none; }
+
+.top_inbox li a.btn_collect { background-position:0 -149px; }
+.top_inbox li a.btn_like { background-position:-71px -149px; }
+.top_inbox li a.btn_share { background-position:-142px -149px; }
+.top_inbox li a.btn_comment { background-position:-213px -149px; }
+.top_inbox li a.btn_edit { background-position:-142px -176px; }
+.top_inbox li a.btn_pdf { background-position:-200px -252px; width: 58px; padding-left: 30px; }
+.top_inbox li a.btn_delete { background-position:-213px -176px; }
+.top_inbox li a.click_collect { color:#fff!important; background-position:0 -176px; width:43px; padding-left:27px; }
+.top_inbox li a.click_like { color:#fff!important; background-position:-71px -176px; width:43px; padding-left:27px; }
+.top_article .top_inbox .des-area{ float: left; padding-top: 12px; }
+.top_article .des-area a,
+.top_article .des-area span{ font-family: Microsoft Yahei; font-size: 14px; }
+.top_article .des-area i{ font-size: 16px; color: #ccc; padding: 0 10px; }
+
+/* 生成PDF弹出层 */
+.generatPDF { width: 588px; height: 318px; color: #333; }
+.generatPDF .generat_btn { width: 130px; height: 36px; display: inline-block; background: url(/travels/img/generat_pdf_bg.png) 0 0 no-repeat; color: #fff; font-size: 16px; text-align: center; line-height: 36px; text-decoration: none; }
+.generatPDF .generat_btn:hover { background-position: 0 -37px; }
+.generatPDF .generat_loading img { width: 96px; height: 96px; display: block; margin: 65px auto 35px; }
+.generatPDF .generat_loading p, .generatPDF .generat_failure p { font-size: 18px; text-align: center; line-height: 30px; }
+.generatPDF .generat_success { padding: 15px 19px 0; }
+.generatPDF .generat_success h2 { font-size: 24px; padding: 10px 0 30px; border-bottom: 1px solid #cbcbcb; font-weight: 400; margin-bottom: 50px; }
+.generatPDF .generat_success i { width: 108px; height: 153px; display: block; float: left; margin-right: 30px; background: url(/travels/img/pdf_mask.png) 0 0 no-repeat; }
+.generatPDF .generat_success h4 { font-size: 18px; font-weight: 400; width: 410px; display: inline-block; float: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 2px 0 10px; }
+.generatPDF .generat_success p { font-size: 14px; margin-bottom: 10px; float: left; width: 400px; }
+.generatPDF .generat_success a { margin-top: 30px; }
+.generatPDF .generat_failure div { width: 96px; height: 96px; display: block; margin: 65px auto 35px; background: url(/travels/img/generat_pdf_bg.png) top right no-repeat; }
+.generatPDF .generat_failure a { display: block; margin: 40px auto 0; }
+.pdf_tip { width: 258px; height: 136px; background-image: url(/travels/img/pdf_tip.png); position: absolute; z-index: 10; }
+.pdf_tip a { width: 42px; height: 16px; display: block; position: absolute; right: 20px; bottom: 21px; }

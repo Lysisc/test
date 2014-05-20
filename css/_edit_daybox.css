@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */ 
+.linecolor{
+	color:#ccc!important;
+	padding:0 10px;}
+ 
+.editbox .edit_title,
+.editbox .singledes .add_comment,
+.editbox .singleimg .setcover i,
+.toggleimgbox .bottomline .develop,
+.toggleimgbox .bottomline .packup,
+.editbox .addtxtline a strong{background:url(/travels/img/journal_detbox.png) no-repeat; }
+.editbox{ font-family:Tahoma,Simsun;} 
+.editbox .edithstyle{
+	font-family:Microsoft Yahei;
+	font-size:20px;
+	display:inline;
+	padding-bottom:20px;
+	font-weight:normal;
+	word-break: break-all;
+	word-wrap: break-word;}
+.editbox .edit_title{
+	display: inline-block;
+    height: 16px;
+    margin-left: 8px;
+    overflow: hidden;
+    vertical-align: middle;
+	background-position:-132px -40px;
+    width: 16px;}
+.editbox .edit_title:hover{
+	background-position:-84px -40px;}
+.editbox p.piccount{
+	color:#999;
+	padding-bottom:10px;
+	font-size:12px;}
+.editbox .titleline{
+	background:none;}
+.editbox .singledes .add_comment{
+	width:58px;
+	height:24px;
+	line-height:22px;
+	color:#666;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	_vertical-align:top;
+	margin-left:12px;
+	font-size:12px;
+	padding-left:32px;
+	font-weight:normal;
+	background-position:0 -203px;}
+.editbox .singledes .add_comment:hover{
+	background-position:-91px -203px;
+	color:#333;
+	text-decoration:none;}
+.editbox .singledes .edit_comment{
+	margin:0;}
+.editbox .singleimg .setcover{
+	width:110px;
+	height:30px;
+	display:none;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	right:0;
+	border-radius:15px 0 0 15px;}
+.editbox .singleimg .setcover b{
+	background: #000;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110px;}
+.editbox .singleimg .setcover i{
+	width:17px;
+	height:17px;
+	overflow:hidden;
+	background-position:-91px -131px;
+	display:inline-block;
+	position:absolute;
+	left:14px;
+	top:6px;
+	}
+.editbox .singleimg .setcover a{
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	line-height:28px;
+	position:absolute;
+	right:13px;
+	}
+.editbox .singleimg .setcover a:hover{
+	text-decoration:none;}
+.editbox .toggleimgbox{
+	position:relative;
+	height:200px;
+	cursor:pointer;
+	overflow:hidden;}
+.editbox .toggleimgbox .bottomline{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+    height: 30px;
+    position: absolute;}
+.editbox .toggleimgbox .bottomline b{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background: #000;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;}
+.toggleimgbox .bottomline .develop,
+.toggleimgbox .bottomline .packup{
+	background-position:-279px 12px;
+	padding-left:20px;
+	position:absolute;
+	color:#fff;
+	left:50%;
+	line-height:28px;
+	font-size:12px;}
+.toggleimgbox .bottomline .packup{
+	background-position:-279px -7px;}
+.editbox .addpictext{
+	text-align:left;
+	font-size:12px;
+	background:#fff;
+	font-size:14px;
+	line-height:24px;
+	padding:20px;
+	overflow:hidden;}
+.editbox .addpictext a
+{
+    float:left;}
+    .editbox .addpictext a.link_addpictxt
+{
+    float:none;}
+.editbox .addpictext .link_addpictxt{
+	color:#999;
+	font-size:12px;}
+.editbox .addpictext .link_addpictxt:hover{
+	color:#999;
+	text-decoration:none;}
+.editbox .addpictext .link_addpictxt:hover .edit_title{
+	background-position:-84px -40px;
+	}
+.editbox .addtxtline{
+	background: url(/travels/img/daytitlebg.png) repeat-x scroll 0 11px transparent;
+    height:20px;
+    text-align: center;
+	font-size:12px;
+	margin-bottom: 25px;
+    width: 900px;}
+.editbox .addtxtline a.normaltext{
+	background:#fff;
+	display:inline-block;
+	color:#666;
+	*line-height: 20px;
+	_margin-top: 3px;}
+.editbox .addtxtline a strong{
+	width:8px;
+	height:8px;
+	overflow:hidden;
+	display:inline-block;
+	background-position:-281px -45px;
+	margin-right:8px;
+	*vertical-align: 10%;}
+.editbox .addtxtline a:hover{
+	text-decoration:none;
+	color:#41afea;}
+.editbox .addtxtline a:hover strong{
+	background-position:-281px -63px;}
+.editbox .theend{
+	margin-top:30px;}
+.edit_tag{font-family: 'Microsoft YaHei'}
+.edit_tag h3{
+	font-size:14px;
+	color:#333;
+	padding-bottom:10px;}
+.edit_tag h3 span{
+	color:#999;
+	font-weight:normal;
+	font-size:12px;}
+.edit_tag li{
+	float:left;
+	margin:0 10px 10px 0;}
+.edit_tag .tag-tip{
+	font-size: 12px;
+	color: #B94A48;
+	line-height: 22px;
+	display: none;
+	float: left;
+}
+.edit_tag li a{
+    cursor: pointer;
+	height:26px;
+	font-size:12px;
+	color:#fff;
+	padding:0 15px;
+	background:#bbb;
+	display:block;
+	text-align:center;
+	line-height:26px;
+	overflow:hidden;
+	_float:left;}
+.edit_tag li a:hover{
+	text-decoration:none;}
+.edit_tag li.current a{
+	padding-left:25px;
+	background:#41afea url(/travels/img/journal_detbox.png) no-repeat -269px -114px;
+	}
+.edit_tag a.addtaglink{
+	width:88px;
+	height:24px;
+	overflow:hidden;
+	font-size:12px;
+	background:#fff;
+	border:1px solid #bbb;
+	padding:0;
+	line-height:24px;
+	text-align:center;
+	display:inline-block;
+	color:#999;}
+.edit_tag a.addtaglink:hover{
+	color:#06c;
+	text-decoration:none;}
+.editbox .textcontent{
+	display:inline;}
+/*edit link box*/
+.edittitle{
+	padding-bottom:20px;}
+.edittitle input{
+	width:884px;
+	height:38px;
+	box-shadow:2px 2px 2px #eaeaea inset;
+	color:#333;
+	font-size:14px;
+	padding-left:14px;
+	margin-bottom:10px;
+	border:1px solid #ccc;
+	line-height:38px;}
+.edittitle .msg,.addtext .msg,.addpictext .msg{
+	color:#999;
+	font-size:12px;
+	float:right;}
+.edittitle .msg span,.addtext .msg span,.addpictext .msg span{
+	font-weight:bold;
+	padding:0 5px;
+	font-size:14px;
+	}
+.editcancel{
+	vertical-align:top;
+	color:#666;
+	margin-left:20px;
+	line-height:30px;
+	font-size:12px;
+	*vertical-align:middle;}
+	
+.editbox .addtext{
+	height:auto;
+	overflow:hidden;
+	padding-bottom:30px;
+	position:relative;
+	text-align:left;}	
+.addtext textarea,.addpictext textarea{
+	width:890px;
+	height:62px;
+	padding:8px 0 8px 8px;
+	margin-bottom:10px;
+	font-size:14px;
+	border:1px solid #ccc;
+	box-shadow: 2px 2px 2px #eaeaea inset;
+	resize:none;}
+.addtext textarea.red-border,
+.addpictext textarea.red-border,
+.addtagbox input.textarea.red-border,
+.edittitle input.textarea.red-border{
+	border:1px solid #B94A48;
+}
+.addpictext textarea{
+	width:850px;}
+.addtagbox{
+	float:left;
+	margin-bottom: 10px;
+	margin-right: 20px;}
+.addtagbox input.textarea{
+	width:140px;
+	height:28px;
+	overflow:hidden;
+	border:1px solid #bbb;
+	padding-left:8px;
+	margin-right:15px;
+	line-height:28px;
+	vertical-align:top;}
+.addtagbox .textareaframe{
+	margin-top:-4px;}
+.edit_optips{
+	width:174px;
+	height:59px;
+	overflow:hidden;
+	display:inline-block;
+	background:url(/travels/img/edit_optips.png) no-repeat;
+	position:absolute;
+	bottom:23px;
+	left:50%;
+	font-size:12px;
+	color:#666;
+	text-align:left;
+	margin-left:40px;
+	line-height:20px;
+	padding:10px 30px 0 10px;}
+.edit_optips a.close{
+	position:absolute;
+	right:10px;
+	top:5px;
+	font-size:14px;
+	color:#666;}
+.edit_optips a.close:hover{
+	text-decoration:none;}
+
+.gsn-inputbox {clear: both;display: none;}
+#gsn_frame_report .gsn-inputbox{ display:block; } 
+.gsn-formerr .gsn-tiptext {color: #b94a48;font-size: 12px;}

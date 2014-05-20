@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.titlebox .titleright h3 .ico_phone, .link_comment i, .link_share i, .link_like i, .link_collect i, .link_edit i, .link_delete i, .link_pdf i, .linedetbox .lineend { background: url(/travels/img/journal_detbox.png) no-repeat; }
+/* title */
+.journal_detbox .titlebox { width: 943px; border: 1px solid #f0f0f0; background: #f7f7f7; padding: 15px 15px 15px 20px; }
+.journal_detbox .titlebox .userheadimg { width: 90px; height: 90px; overflow: hidden; float: left; display: inline-block; }
+.titlebox .userheadimg img { width: 90px; height: 90px; border-radius: 45px; }
+.journal_detbox .titlebox .titleright { float: right; width: 830px; }
+.titlebox .titleright .titler_div { border-bottom: 1px solid #eaeaea; }
+.titlebox .titleright .titler_div_right { width: 750px; border-right: 1px solid #fff; }
+.titlebox .titleright .titler_a { float: right; font-size: 14px; text-align: center; display: block; width: 65px; height: 60px; padding-top: 10px; color: #666; text-decoration: none; }
+.titlebox .titleright .titler_a i { width: 16px; height: 16px; display: block; background: url(/travels/img/icon_ctd_bg.png) no-repeat; margin-left: 25px; margin-bottom: 8px; }
+.titlebox .titleright .titler_a i.edit { background-position: -312px -96px; }
+.titlebox .titleright .titler_a:hover i.edit { background-position: -312px -112px; }
+.titlebox .titleright .titler_a i.comp { background-position: -335px -112px; }
+.titlebox .titleright .titler_a:hover i.comp { background-position: -360px -112px; }
+.titlebox .titleright .titler_div_right h3, .titlebox .titleright .titler_div_right p { border-right: 1px solid #eaeaea; padding-right: 10px; }
+.titlebox .titleright h3 { font-size: 20px; font-weight: normal; line-height: 28px; padding-bottom: 20px; word-break: break-all; word-wrap: break-word; font-family: Microsoft Yahei; }
+.titlebox .titleright h3 .audit { color: #f00; }
+.titlebox .titleright h3 .ico_phone { background-position: -91px -100px; width: 10px; height: 16px; vertical-align: middle; overflow: hidden; display: inline-block; margin-left: 6px; }
+.titlebox .titleright p { color: #999; margin-bottom: 10px; }
+.titlebox .titleright p span { color: #666; }
+.titlebox .titleright a.graylink { color: #666; }
+.titlebox .titleright a.graylink:hover { color: #06c; }
+.linecolor { color: #ccc !important; padding: 0 10px; }
+.titlebox .titleright ul { padding-top: 10px; border-top: 1px solid #fff; }
+.titlebox .titleright li { float: right; }
+.titlebox .titleright li a { color: #666; background: #f7f7f7; }
+.titlebox .titleright li a.link_like_selected { color: #333; }
+.titlebox .titleright li a:hover { color: #333; text-decoration: none; }
+.link_comment i, .link_share i, .link_like i, .link_collect i, .link_pdf i, .link_edit i, .link_delete i, .link_step3 i { width: 16px; height: 16px; margin-right: 8px; display: inline-block; overflow: hidden; vertical-align: middle; }
+.link_comment i { background-position: -51px -19px }
+.link_share i { background-position: -34px -19px; }
+.link_like i { background-position: -18px -19px; }
+.link_collect i { background-position: 0 -20px; }
+.link_pdf i { background-position: -164px -40px; margin-right: 2px; }
+.link_edit i { background-position: -67px -39px; }
+.link_delete i { background-position: -99px -39px; }
+.link_comment:hover i { background-position: -51px -36px }
+.link_share:hover i { background-position: -34px -36px; }
+.link_like:hover i, .click_like i, .link_like_selected i { background-position: -18px -36px; }
+.link_collect:hover i, .click_collect i { background-position: 0 -37px; }
+.link_pdf:hover i { background-position: -180px -40px; }
+.link_edit:hover i { background-position: -148px -40px; }
+.link_delete:hover i { background-position: -115px -39px; }
+.link_step3 i { background: url(/travels/img/icon_ctd_bg.png) -382px -141px no-repeat; }
+.link_step3:hover i { background-position: -382px -162px; }
+.click_like, .click_collect { color: #333 !important; cursor: text; }
+/* linebox */
+.linedetbox { width: 900px; padding-left: 59px; margin-left: 18px; border-left: 3px solid #eaeaea; position: relative; }
+.linedetbox .lineend { background-position: -266px -28px; width: 3px; height: 120px; display: block; position: absolute; bottom: 0; left: -3px; }
+.footblue { margin-top: 40px; }
+/* popbox */
+.piccomment { width: 590px; }
+.piccomment h3, .deljournal h3 { color: #066b9f; font-size: 16px; font-weight: normal; padding-bottom: 12px; }
+.piccomment .gsn-textarea { width: 573px; font-size: 14px; line-height: 22px; height: 200px; padding: 8px 0 8px 15px; resize: none; }
+.piccomment p, .deljournal p.btnbox { text-align: right; padding-top: 10px; height: 25px; color: #999; }
+.reportmain .gsn-tiptext { color: #999; line-height: 26px; }
+.piccomment strong.count { font-size: 14px; font-family: Tahoma; padding: 0 5px; }
+.piccomment .gsn-btn-2, .deljournal .gsn-btn-2 { margin-left: 10px; }
+.piccomment .areabox { position: relative; }
+.piccomment .areabox span.quotetext { line-height: 2em; color: #999; font-size: 14px; display: none; }
+.deljournal { width: 340px; }
+.deljournal p.deltext { font-size: 14px; padding: 15px 0 40px 0 }
+/* title tag icon */
+.tit_tagico_1, .tit_tagico_2, .tit_tagico_3, .tit_tagico_4 { width: 35px; height: 20px; border-radius: 10px; display: inline-block; color: #fff; background: #019725; font-size: 12px; font-weight: normal; font-family: SimSun; text-align: center; margin-left: 10px; padding-left: 2px; line-height: 20px; vertical-align: middle; }
+.tit_tagico_2 { background: #f92c04 }
+.tit_tagico_3 { background: #006aaf }
+.tit_tagico_4 { background: #7e519f }
+.after_delJournal { padding: 60px; }
+.after_delJournal p { font-size: 14px; }
+/* 2014/1/24 lusc */
+.gs_qrcode { width: 95px; height: 260px; position: relative; background: url(/common/img/qr_code.png) 0 0 no-repeat; position: fixed; _position: absolute; margin-left: 1000px; top: 180px; animation: myfirst 1s ease-in 4s; -moz-animation: myfirst 1s ease-in 4s; /* Firefox */
+	-webkit-animation: myfirst 1s ease-in 4s; /* Safari and Chrome */
+-o-animation: myfirst 1s ease-in 4s; /* Opera */ }
+.gs_qrcode a.one { width: 95px; height: 260px; display: block; }
+.gs_qrcode a.close { width: 20px; height: 20px; position: absolute; top: 0; right: 0; display: block; color: #fff; font-size: 20px; text-decoration: none; line-height: 20px; text-align: center; }
+.gs_qrcode a.close:hover { color: #ecb200; }
+.gs_qrcode span { position: absolute; left: 0; bottom: 16px; font-size: 18px; font-weight: bold; color: #ecb200; display: block; width: 95px; text-align: center; }
+/* 2014/1/24 lusc end */
+.footerseo { margin-top: 70px; }
+/* 游记2.4 新增模块 */
+.ctd_content_controls { padding-left: 80px; font-size: 14px; line-height: 26px; margin-top: 20px; }
+.ctd_content_controls a { color: #00a7e1; display: inline-block; word-break: keep-all; }
+.ctd_content_controls span { margin-bottom: 12px; display: inline-block; margin-right: 16px; }
+.ctd_content_controls span i { width: 16px; height: 16px; margin-right: 5px; background: url(/travels/img/icon_ctd_bg.png) no-repeat; vertical-align: middle; display: inline-block; }
+.ctd_content_controls span i.days { background-position: -360px 0; }
+.ctd_content_controls span i.times { background-position: -384px 0; }
+.ctd_content_controls span i.costs { background-position: -360px -24px; }
+.ctd_content_controls span i.whos { background-position: -384px -24px; }
+.ctd_content_controls span i.plays { background-position: -360px -48px; }
+.ctd_content_controls span i.pois { background-position: -384px -120px; }
