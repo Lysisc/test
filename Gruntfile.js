@@ -36,19 +36,45 @@ module.exports = function(grunt) {
             },
             release: { //任务四：合并压缩a.js和b.js
                 files: {
-                    'build/js/index.min.js': ['js/travels.js', 'js/travel_writing.js']
+                    'build/js/all/all.js': ['js/**/*.js']
+                }
+            }
+        },
+        concat: {
+            mini: {
+                options: {
+                    banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %> */\n' //添加banner
+                },
+                files: {
+                    'build/css/index.min.css': ['css/_daypage.css', 'css/_det_daybox.css', 'css/_det_reply.css'],
+                },
+            }
+        },
+        cssmin: {
+            minify: {
+                options: {
+                    banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %> */\n' //添加banner
+                },
+                files: {
+                    'build/css/all.css': ['css/**/*.css'] // 合并并压缩 build/css 目录下(包含子目录)的所有css文件
                 }
             }
         }
     });
 
-    // 加载提供"uglify"任务的插件
+    // 加载插件
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // 默认任务
     grunt.registerTask('default', ['uglify:release']);
+
+    // 自定义任务
     grunt.registerTask('mina', ['uglify:builda']);
     grunt.registerTask('minb', ['uglify:buildb']);
     grunt.registerTask('minall', ['uglify:buildall']);
+    grunt.registerTask('cssmini', ['cssmin:minify']);
+    grunt.registerTask('concati', ['concat:mini']);
 
 };
