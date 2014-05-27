@@ -1,2 +1,0 @@
-/*! test 2014-05-20 17:53:46 */
-$(function(){var a=$("#travel_name"),b=($("#len_span span").html(),$(".travel_template"));a.gsInputLen(function(c){var d=c;if(d>=51){var e=$.gsSubstring(a.val(),50,1);a.val(e)}else $("#len_span span").html(d);/\S/g.test(a.val())&&"好名字会让你的游记脱颖而出引人注目"!==a.val()?(b.removeClass("disable"),b.find("a").each(function(){var a=$(this).attr("data-href");$(this).attr("href",a)})):(b.addClass("disable"),b.find("a").removeAttr("href"))}),a.placeholder()});
