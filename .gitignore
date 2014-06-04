@@ -1,0 +1,8 @@
+.sass-cache
+.DS_Store
+node_modules/
+js/**/*.js
+scss/**/*.css
+img/**/*.png
+img/**/*.gif
+img/**/*.jpg

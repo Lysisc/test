@@ -1,0 +1,38 @@
+$font_stack: 400 12px/18px Microsoft YaHei, Arial, Helvetica, sans-serif;
+$font_color: #fff;
+$background_color: rgba(51, 51, 51, .4);
+$display_block: block;
+$content_width: 1000px;
+$content_height: 1000px;
+$font_center: center;
+$line_center: 0 auto;
+body {
+	font: $font_stack;
+	color: $font_color;
+	background-color: #c1c1c1;
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+}
+.loading_img {
+	display: $display_block;
+	margin: $line_center;
+}
+.content {
+	width: $content_width;
+	height: $content_height;
+	margin: $line_center;
+	background-color: $background_color;
+}
+.bb_title {
+	margin: 0;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: $font_center;
+}
+.bb_list {
+	font-size: 16px;
+	line-height: 20px;
+}

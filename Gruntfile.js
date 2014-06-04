@@ -59,6 +59,20 @@ module.exports = function(grunt) {
                     'build/css/all.css': ['css/**/*.css'] // 合并并压缩 build/css 目录下(包含子目录)的所有css文件
                 }
             }
+        },
+        connect: {
+            server: {
+                options: {
+                    port: 9999,
+                    hostname: '*',
+                    onCreateServer: function(server, connect, options) {
+                        var io = require('socket.io').listen(server);
+                        io.sockets.on('connection', function(socket) {
+                            // do something with socket
+                        });
+                    }
+                }
+            }
         }
     });
 
@@ -66,6 +80,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
     // 默认任务
     grunt.registerTask('default', ['uglify:release']);
@@ -76,5 +91,6 @@ module.exports = function(grunt) {
     grunt.registerTask('minall', ['uglify:buildall']);
     grunt.registerTask('cssmini', ['cssmin:minify']);
     grunt.registerTask('concati', ['concat:mini']);
+    grunt.registerTask('connect', ['connect']);
 
 };
